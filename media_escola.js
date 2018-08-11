@@ -26,12 +26,12 @@ function mediaNotas(){
     else{
 
     }
-    if(media >= 70 && media <= 84)
+    if(media >= 70 && media < 84)
         alert('Sua média é: ' + media + '\n\nVocê vai para recuperação');
     else{
 
     }
-    if(media < 70 && media >=50)
+    if(media < 70 && media > 50)
         alert('Sua média é: ' + media + '\n\nVocê está REPROVADO!');
     else{
     }
