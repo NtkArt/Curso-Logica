@@ -21,7 +21,7 @@ function mediaNotas(){
     else{
 
     }
-    if(media == 84)
+    if(media >= 84 && media < 85)
         alert('Sua média é: ' + media + '\n\nVocê vai para o conselho de Classe');
     else{
 
